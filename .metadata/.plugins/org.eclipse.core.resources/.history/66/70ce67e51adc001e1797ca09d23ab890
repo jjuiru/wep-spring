@@ -1,0 +1,83 @@
+package spring;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+//회원가입 처리를 위한 Dto
+public class RegisterRequest {
+
+	private String email;
+	private String password;
+	private String confirmPassword;
+	private String name;
+	
+	public void setConfirmPassword(String confirmPassword) {
+		// 가져온 패스워드를 저장한다.
+		this.confirmPassword=confirmPassword;
+	} 	
+	
+	
+	
+	
+	public RegisterRequest(String email, String password, String confirmPassword, String name) {
+		super();
+		this.email = email;
+		this.password = password;
+		this.confirmPassword = confirmPassword;
+		this.name = name;
+	}
+
+
+
+
+	public String getEmail() {
+		return email;
+	}
+
+
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+
+
+	public String getPassword() {
+		return password;
+	}
+
+
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+	public String getConfirmPassword() {
+		return confirmPassword;
+	}
+
+
+
+	public boolean isPasswordEqualToConfrmPassword() {
+		// 가져온 패스워드가 저장된 패스워드와 같다면 frue 다르면 false 리턴
+		return password.equals(confirmPassword);
+	} 		
+}

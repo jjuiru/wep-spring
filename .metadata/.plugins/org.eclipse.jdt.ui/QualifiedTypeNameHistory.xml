@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="spring.MemberDao"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="spring.MemberPrinter"/>
+    <fullyQualifiedTypeName name="spring.MemberListPrinter"/>
+    <fullyQualifiedTypeName name="spring.MemberInfoPrinter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="spring.VersionPrinter"/>
+</qualifiedTypeNameHistroy>
