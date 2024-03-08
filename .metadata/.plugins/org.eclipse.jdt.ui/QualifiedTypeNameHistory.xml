@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="spring.MemberDao"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="com.board.BoardService"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.board.BoardDao"/>
+    <fullyQualifiedTypeName name="config.AppConf2"/>
+    <fullyQualifiedTypeName name="config.AppConf1"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
+    <fullyQualifiedTypeName name="config.AppConfiImport"/>
+    <fullyQualifiedTypeName name="config.AppCtxNoMemberPrinterBean"/>
+    <fullyQualifiedTypeName name="spring.MemberDao"/>
+    <fullyQualifiedTypeName name="spring.MemberRegisterService"/>
+    <fullyQualifiedTypeName name="spring.ChangePasswordService"/>
     <fullyQualifiedTypeName name="spring.MemberPrinter"/>
+    <fullyQualifiedTypeName name="spring.MemberSummaryPrinter"/>
     <fullyQualifiedTypeName name="spring.MemberListPrinter"/>
     <fullyQualifiedTypeName name="spring.MemberInfoPrinter"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="spring.VersionPrinter"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Conditional"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>

@@ -5,6 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
+
+//회원가입 처리를 위한 클래스 
 public class RegisterRequest {
 
 	private String email;
@@ -12,39 +14,10 @@ public class RegisterRequest {
 	private String confirmPassword;
 	private String name;
 
-//	public String getEmail() {
-//		return email;
-//	}
-//
-//	public void setEmail(String email) {
-//		this.email = email;
-//	}
-//
-//	public String getPassword() {
-//		return password;
-//	}
-//
-//	public void setPassword(String password) {
-//		this.password = password;
-//	}
-//
-//	public String getConfirmPassword() {
-//		return confirmPassword;
-//	}
-//
-//	public void setConfirmPassword(String confirmPassword) {
-//		this.confirmPassword = confirmPassword;
-//	}
-//
-//	public String getName() {
-//		return name;
-//	}
-//
-//	public void setName(String name) {
-//		this.name = name;
-//	}
-
+	//이 클래스에 저장된 패스워드가 확인용 패스워드와 일치하지 않으면 false를 리턴한다. 
 	public boolean isPasswordEqualToConfirmPassword() {
 		return password.equals(confirmPassword);
 	}
+	
+	//getter setter 자동생성
 }
