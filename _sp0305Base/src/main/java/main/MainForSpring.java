@@ -20,9 +20,13 @@ import spring.WrongIdPasswordException;
 
 public class MainForSpring {
 
+	// Assembler 클래스 대신 spring 컨테이너인 ApplicationContext를 사용했다.
+	// 스프링 기능인 configuration을 이노테이션으로 붙여 사용한 클래스를 등록하고 사용가능
+	// 컨테이너 선언
 	private static ApplicationContext ctx = null;
 	
 	public static void main(String[] args) throws IOException {
+		// 컨테이너에 스프링 이노테이션 클래스를 등록한다.
 		ctx = new AnnotationConfigApplicationContext(AppCtx.class);
 		
 		BufferedReader reader = 
@@ -54,7 +58,11 @@ public class MainForSpring {
 		}
 	}
 	
+	// 조립기를 생성하는 코드가 없다. 
+	
 	private static void processVersionCommand() {
+		//필요한 빈 객체를 구현한다. getBean을 이용한다. 형식은 해시맵과 비슷하게 키 코드로 구성.
+		// 빈의 메소드 이름과 타입의 클래스로 구성한다.
 		VersionPrinter versionPrinter = 
 				ctx.getBean("versionPrinter", VersionPrinter.class);
 		versionPrinter.print();

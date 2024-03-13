@@ -7,3 +7,38 @@
 3월 07, 2024 12:15:01.95 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 3월 07, 2024 12:33:35.22 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 3월 07, 2024 16:41:41.54 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 12, 2024 16:26:53.18 NEW SESSION
+3월 12, 2024 16:26:53.20 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 12, 2024 16:31:22.03 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 12, 2024 16:36:21.79 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 12, 2024 17:41:26.01 [12652:4908:0312/174126.017:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+3월 12, 2024 17:50:06.58 [12652:4392:0312/175004.009:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+3월 12, 2024 17:50:06.58 [12652:4908:0312/175004.017:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+
+3월 13, 2024 11:23:53.42 NEW SESSION
+3월 13, 2024 11:23:53.43 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 11:24:25.75 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 11:51:50.29 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 11:52:07.27 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 11:52:20.02 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 11:55:15.24 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 11:58:22.97 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 12:18:05.61 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 12:19:11.37 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 12:19:57.22 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 12:29:21.91 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 15:25:32.25 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 15:25:47.63 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 15:42:23.04 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 15:44:15.55 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 15:46:10.46 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 15:46:49.41 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 15:47:06.03 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 15:49:55.94 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 15:50:22.17 [0313/155022.177:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\admin\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\03c81113-7ec9-4205-93aa-b6e147582a2e: 지정된 파일을 찾을 수 없습니다. (0x2)
+3월 13, 2024 15:50:22.17 [0313/155022.178:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\admin\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\03c81113-7ec9-4205-93aa-b6e147582a2e: 지정된 파일을 찾을 수 없습니다. (0x2)
+3월 13, 2024 15:50:22.17 [0313/155022.178:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\admin\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\03c81113-7ec9-4205-93aa-b6e147582a2e: 지정된 파일을 찾을 수 없습니다. (0x2)
+3월 13, 2024 15:50:22.17 [0313/155022.179:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\admin\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\03c81113-7ec9-4205-93aa-b6e147582a2e: 지정된 파일을 찾을 수 없습니다. (0x2)
+3월 13, 2024 16:06:58.24 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2024 16:49:45.32 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
