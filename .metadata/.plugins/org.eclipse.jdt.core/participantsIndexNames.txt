@@ -17,6 +17,8 @@ D:\spwep\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1048877691.index
 \_sp0313_springMVC2\src\main\java
 D:\spwep\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2686364268.index
 \_web306\src\main\java
+D:\spwep\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3006699708.index
+\_sp0314_springMVCTest\src\main\java
 D:\spwep\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\997751206.index
 \_sp0312_ajexTodoList\src\main\java
 D:\spwep\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2175757413.index

@@ -42,3 +42,24 @@
 3월 13, 2024 15:50:22.17 [0313/155022.179:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\admin\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\03c81113-7ec9-4205-93aa-b6e147582a2e: 지정된 파일을 찾을 수 없습니다. (0x2)
 3월 13, 2024 16:06:58.24 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 3월 13, 2024 16:49:45.32 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 14, 2024 09:02:22.78 NEW SESSION
+3월 14, 2024 09:02:22.78 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 14, 2024 10:52:23.70 NEW SESSION
+3월 14, 2024 10:52:23.71 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2024 14:06:27.24 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2024 14:08:23.65 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2024 14:08:37.60 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2024 14:12:50.02 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 14, 2024 15:51:03.05 NEW SESSION
+3월 14, 2024 15:51:03.06 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2024 16:05:05.88 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2024 16:05:18.18 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 14, 2024 17:46:45.31 NEW SESSION
+3월 14, 2024 17:46:45.32 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2024 17:47:16.22 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2024 18:23:53.92 [4984:6888:0314/182353.920:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+3월 14, 2024 19:13:38.63 [4984:6888:0314/191335.755:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
