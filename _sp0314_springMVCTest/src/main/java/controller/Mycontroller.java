@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import dto.LoginRequest;
@@ -36,7 +37,7 @@ public class Mycontroller {
 		return "inputForm";		//view의 이름을 web.xml로 전송 > 주소값이 붙은 태그가 view로 포워딩 된다. 
 	}
 	
-	@GetMapping("/result") //이벤트 발생시 요청
+	@PostMapping("/result") //이벤트 발생시 요청
 	public String result(LoginRequest loginRequest, Model model) { // 1.dto를 직접 매개변수로 바로 받아 사용하는 방법
 		String str="어떤값"; //지역변수이기 때문에 result에 직접 포워딩불가
 		model.addAttribute("str",str);//따라서 Model 객체를 만들어 그안에 세팅해준다. 
@@ -65,7 +66,7 @@ public class Mycontroller {
 	
 	@GetMapping("/list") //이벤트 발생시 요청
 	public String list(Model model) { // 1.dto를 직접 매개변수로 바로 받아 사용하는 방법 
-		System.out.println(getMemberNumService.getNumRecords());
+//		System.out.println(getMemberNumService.getNumRecords());
 		model.addAttribute("memberAllList",getMemberListPrintService.getMemberListPrintService());
 		return "list";	
 	}

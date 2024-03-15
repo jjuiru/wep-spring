@@ -164,9 +164,9 @@
       
       
       
-      <Context docBase="D:\spwep\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\spwep\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\_sp0312_ajaxTodoList" path="/_sp0312_ajaxTodoList" reloadable="true" source="org.eclipse.jst.jee.server:_sp0312_ajaxTodoList"/>
       
-      <Context docBase="D:\spwep\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\_sp0314_springMVCTest" path="/_sp0314_springMVCTest" reloadable="true" source="org.eclipse.jst.jee.server:_sp0314_springMVCTest"/><Context docBase="D:\spwep\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\_sp0305_2MVC" path="/_sp0305_2" reloadable="true" source="org.eclipse.jst.jee.server:_sp0305_2MVC"/></Host>
+      
+      <Context docBase="D:\spwep\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\spwep\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\_sp0315_spProjectMVC" path="/_sp0315_spProjectMVC" reloadable="true" source="org.eclipse.jst.jee.server:_sp0315_spProjectMVC"/><Context docBase="D:\spwep\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\_sp0314_springMVCTest" path="/_sp0314_springMVCTest" reloadable="true" source="org.eclipse.jst.jee.server:_sp0314_springMVCTest"/></Host>
     </Engine>
   </Service>
 </Server>

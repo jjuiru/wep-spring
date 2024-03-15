@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="result"> <!-- 요청된다. -->
+<form action="result" method="post"> <!-- 요청된다. -->
 <input type="text" name="id">
 <input type="email" name="email">
 <input type="submit" value="입력">
