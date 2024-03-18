@@ -6,6 +6,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import mvjsp.board.model.Member;
+
 public class MemberDao {
 	private static Connection conn;
 	private static MemberDao dao = new MemberDao();

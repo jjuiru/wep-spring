@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import mvjsp.board.dao.MemberDao;
+import dao.MemberDao;
 import mvjsp.board.model.Member;
 import mvjsp.jdbc.connection.ConnectionProvider;
 
