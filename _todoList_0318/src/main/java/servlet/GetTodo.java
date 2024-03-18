@@ -41,9 +41,11 @@ public class GetTodo extends HttpServlet {
 				DbQueryConfig.class)) {
 			TodoDao dbQuery = ctx.getBean(TodoDao.class);
 			List<TodoList> list = dbQuery.selectAll();
+			System.out.println(list);
 			response.setContentType("application/json");
 			response.setCharacterEncoding("UTF-8");
 			PrintWriter out = response.getWriter();
+			
 			out.print(new Gson().toJson(list));
 			out.flush(); // 화면에 보여준다
 		} catch (BeansException e) {

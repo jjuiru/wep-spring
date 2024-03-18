@@ -18,7 +18,7 @@
 	<script>
 		$(function() {
 			$.ajax({
-				url : 'GetTodos',
+				url : 'GetTodo',
 				method : 'GET',
 				success : function(data) {
 					data.forEach(function(todo) {
@@ -47,7 +47,7 @@
 		function addItem(text1) {
 			const list = $('#todoList');
 
-			const item = $('<li></li>').text(text1);
+			const item = $('<li></li>').text(text1.content);
 			const removeButton = $('<button></button>').text('삭제');
 			removeButton.click(function() {
 				$.ajax({

@@ -166,7 +166,7 @@
       
       
       
-      <Context docBase="_sp0315_spProjectMVC" path="/_sp0315_spProjectMVC" reloadable="true" source="org.eclipse.jst.jee.server:_sp0315_spProjectMVC"/><Context docBase="_sp0314_springMVCTest" path="/_sp0314_springMVCTest" reloadable="true" source="org.eclipse.jst.jee.server:_sp0314_springMVCTest"/><Context docBase="_todoList_0318" path="/_todoList_0318" reloadable="true" source="org.eclipse.jst.jee.server:_todoList_0318"/></Host>
+      <Context docBase="_sp0315_spProjectMVC" path="/_sp0315_spProjectMVC" reloadable="true" source="org.eclipse.jst.jee.server:_sp0315_spProjectMVC"/><Context docBase="_sp0314_springMVCTest" path="/_sp0314_springMVCTest" reloadable="true" source="org.eclipse.jst.jee.server:_sp0314_springMVCTest"/><Context docBase="_todoList_0318" path="/_todoList_0318" reloadable="true" source="org.eclipse.jst.jee.server:_todoList_0318"/><Context docBase="_sp0312_ajaxTodoList" path="/_sp0312_ajaxTodoList" reloadable="true" source="org.eclipse.jst.jee.server:_sp0312_ajaxTodoList"/></Host>
     </Engine>
   </Service>
 </Server>

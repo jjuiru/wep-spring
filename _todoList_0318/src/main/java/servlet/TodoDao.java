@@ -10,7 +10,6 @@ import org.apache.tomcat.jdbc.pool.DataSource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
-import practice.Member;
 
 public class TodoDao {
 	
@@ -26,12 +25,12 @@ public class TodoDao {
 	}
 	
 	public List<TodoList> selectAll() {
-		List<TodoList> result= jdbcTemplate.query("select content from todolist",new RowMapper<TodoList>() {
+		List<TodoList> result= jdbcTemplate.query("select num,content from todolist",new RowMapper<TodoList>() {
 			//RowMapper 인터페이스를 익명의 객체생성한다.  > rs를 생성해준다.모든 rs 리스트의 값을 셀렉트해서 자동으로 List 에 들어간다. 
 			@Override
 			public TodoList mapRow(ResultSet rs, int rowNum) throws SQLException {
 				TodoList dto= new TodoList( // 이 부분은 자동으로 할 수 없고 무조건 코드를 작성해야한다. 
-						rs.getString("content"));
+						rs.getInt("num"),rs.getString("content"));
 				return dto;
 			}			
 		});
