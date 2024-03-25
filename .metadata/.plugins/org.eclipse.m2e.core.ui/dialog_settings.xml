@@ -105,6 +105,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\spwep\_test1"/>
 			<item value="D:\spwep\_sp0320Boot"/>
 		</list>
 		<list key="projectNameTemplate">
