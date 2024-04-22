@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="config.AppCtx"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Client"/>
-    <fullyQualifiedTypeName name="spring.Client"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
     <fullyQualifiedTypeName name="spring.Client2"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
     <fullyQualifiedTypeName name="controller.Mycontroller"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="dto.Member"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
@@ -56,8 +52,12 @@
     <fullyQualifiedTypeName name="com.test._test1.dao.MemberDao"/>
     <fullyQualifiedTypeName name="com.test._test1.service.GetMemberListPrintService"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="com.test._test1.controller.MyController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="com.test._test1.dto.Member"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.MessageSource"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ResourceBundleMessageSource"/>
 </qualifiedTypeNameHistroy>

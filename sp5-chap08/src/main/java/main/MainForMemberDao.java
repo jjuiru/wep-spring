@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.transaction.annotation.Transactional;
 
 import config.AppCtx;
 import spring.Member;
@@ -20,10 +21,15 @@ public class MainForMemberDao {
 		memberDao = ctx.getBean(MemberDao.class);
 
 		selectAll();
-		updateMember();
-		insertMember();
+		txTest(); // 트랜잭션 처리로 묶어서 테스트해보기
 
 		ctx.close();
+	}
+	
+	@Transactional
+	private static void txTest() {
+		updateMember();
+		insertMember();
 	}
 
 	private static void selectAll() {
@@ -38,9 +44,10 @@ public class MainForMemberDao {
 
 	private static void updateMember() {
 		System.out.println("----- updateMember");
-		Member member = memberDao.selectByEmail("madvirus@madvirus.net");
+		Member member = memberDao.selectByEmail("a@a");
 		String oldPw = member.getPassword();
-		String newPw = Double.toHexString(Math.random());
+//		String newPw = Double.toHexString(Math.random());
+		String newPw = "1234";
 		member.changePassword(oldPw, newPw);
 
 		memberDao.update(member);

@@ -105,6 +105,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\spwep\sp5-chap11"/>
+			<item value="D:\spwep\sp5-chap10"/>
+			<item value="D:\spwep\sp5-chap08"/>
+			<item value="D:\spwep\sp5-chap09"/>
 			<item value="D:\spwep\_test1"/>
 			<item value="D:\spwep\_sp0320Boot"/>
 		</list>
